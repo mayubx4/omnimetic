@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-20;
+    @apply xl:text-32;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-16;
+    @apply xl:text-24;
+    @apply font-bold;
+  }
+  blockquote {
+    @apply m-revert;
+  }
+  a {
+    @apply text-indigo-500;
+  }
+  pre {
+    @apply whitespace-pre-wrap bg-gray-800 text-gray-100 py-1 px-2 rounded;
+  }
+}
