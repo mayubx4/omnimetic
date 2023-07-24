@@ -7,3 +7,5 @@
 <h1 align="center">
   Gatsby Omnimetic Frontend
 </h1>
+
+<a href="https://omnimetic.netlify.app">Click here</a> to view live
